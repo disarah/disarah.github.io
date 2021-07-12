@@ -1,0 +1,80 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <title>Sarah Di</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Sarah Di">
+        <meta name="description" content="Sarah Di. Lifelong Learner and CS Artist at Carnegie Mellon University"/>
+        <meta name="keywords" content="Sarah, sarah di, di, computer science, art"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel = "icon" href = "assets/favicons/logo.svg">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+        <style>
+            * {box-sizing: border-box}
+            body {font-family: 'Work Sans', sans-serif; margin:0;}
+            .mySlides {display: none}
+            img {vertical-align: middle;}
+        </style>
+    </head>
+  
+    <body>
+        <header class = "container">
+            <div class = "row">
+                <a id = myname href = "index.html" class = "col-sm-4"
+                    style = "font-weight: 400; font-size:clamp(30px,6vw,50px); text-align:center;">
+                    Sarah Di
+                </a>
+                <nav class = "col-sm-8 text-right" style = "padding:0 6vw;">
+                    <p><a href="assets/docs/resume.pdf">CV</a></p>
+                    <p><a href="work.html">Work</a></p>
+                </nav>
+            </div>
+        </header>
+    <!-- Art -->
+        <div class="main">
+            <div id="Art" class="container">
+                <h2 style = "font-family: 'Work Sans', sans-serif;">Archives</h2>
+                <p> Here is a place for some older/other work I've done! </p>
+            </div>
+
+                <div class="slideshow-container">
+                    <div class="mySlides">
+                        <img class="dart" src="assets/art/people/Bunny.jpg">
+                    </div>
+                    <div class="mySlides">
+                        <img class="dart" src="assets/art/people/snhs.jpg">
+                    </div>
+                    <div class="mySlides">
+                        <img class="dart" src="assets/multimedia/wax.jpg">
+                    </div>
+                    <div class="mySlides">
+                        <img class="dart" src="assets/multimedia/tlight.jpg">
+                    </div>
+                    <div class="mySlides">
+                        <img class="dart" src="assets/multimedia/mitosis.jpg">
+                    </div>
+                    <div class="mySlides">
+                        <img class="dart" src="assets/art/people/oconnor.jpg">
+                    </div>
+                    <button class="prev" onclick="plusSlides(-1)">&#10094;</button>
+                    <button class="next" onclick="plusSlides(1)">&#10095;</button>
+                <script src="scripts/slides.js"></script>
+        </div> <!--/main-->
+            <div style = "text-align:center;">
+                <a href = "twodi.html">Go to 2D</a>
+                <a href = "threedi.html"><br>Go to <i>not 2D</i></a>
+            </div>
+        <nav>
+            <ul>
+                <li><a href = "index.html">About</a></li>
+                <li><a href = "work.html">Work</a></li>
+                <li><a href = "contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+        <footer>
+            <p id="copyright">&copy; Sarah Di</p>
+        </footer>
+    </body>
+</html>
