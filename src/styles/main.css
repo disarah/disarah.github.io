@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fanwood+Text&display=swap');
+
+#myname {
+  font-family: "Sacramento", sans-serif;
+  color: #c75046;
+}
+.connect {
+  font-family: 'Work Sans', sans-serif;
+  padding: 2vh 8vw 2vh 8vw;
+}
+
+html, body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: 300;
+  line-height: 1.5;
+}
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+}
+
+header {
+  z-index: 300;
+}
+
+header .row {
+  display: flex;
+  align-items: center;
+  height: 90px;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 10px;
+  right: 10px;
+  width: auto;
+  background-color: #fff;
+  opacity:1.0;
+}
+
+/*header .row:hover {
+  transition:opacity 0.2s;
+  -webkit-transition: opacity 0.2s;
+  opacity: 1.0;
+}*/
+
+header h1 {
+  font-weight: 700;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+  font-family: 'Work Sans', sans-serif;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  position: relative;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: clamp(12px,6vw,16px);
+  color: #c75046;
+  font-weight: bold;
+  font-size: clamp(18px,6vw,50px);
+  border:none;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(230,170,163,0.6);
+  color: #c75046;
+}
+
+.con {
+  position: relative;
+}
+
+.topic {
+  max-height: 500px;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  object-fit: cover;
+  overflow: hidden;
+  padding: 20px;
+  display: block;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .2s ease;
+  background-color: #fff;
+}
+
+.con:hover .overlay {
+  opacity: 0.8;
+}
+
+.text {
+  color: black;
+  font-size: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text:hover {
+  font-size: 41px;
+  text-decoration: underline;
+}
+
+.thumbnail {
+	filter: hue-rotate(150deg);
+  padding:36px 99px 36px 99px;
+  max-height: 300px;
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  border-style:solid;
+  border-color:white;
+  background-color:white;
+}
+
+.gallery {
+  margin-top: 20px;
+  display:block;
+  flex-wrap:wrap;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+}
+
+.art {
+  max-width: 100vh;
+  width: 100%;
+  padding:20px 60px 20px 60px;
+}
+
+.dart {
+   width:100%;
+   padding:0 10vw 0 10vw;
+}
+
+.main {
+  margin-top: 100px;
+}
+
+.main a{
+  text-decoration: underline;
+  text-decoration-color: #827475;
+  text-decoration-style: dotted;
+}
+
+h1,
+h2 {
+  padding: 20px;
+  color:#e0878d;
+}
+
+iframe{ 
+  border: none; 
+}
+
+p {
+	color:black;
+  font-family: 'Work Sans', sans-serif;
+  padding: 20px;
+}
+
+nav {
+  background-color: #FFF;
+}
+
+nav li {
+  margin: 0;
+  padding: 0 10px;
+  display: inline;
+}
+
+nav a {
+  height: 60px;
+  line-height: 60px;
+  color: #204156;
+  text-decoration: none;
+}
+
+#info {
+  font-size: clamp(15px,4vw,30px);
+}
+
+#click {
+  font-size: clamp(12px,2vw,20px);
+}
+
+#boxes DIV { 
+    margin: 30px; 
+    padding: 20px;
+}
+
+.hideme {
+    opacity:0;
+}
