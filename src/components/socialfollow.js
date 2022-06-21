@@ -27,13 +27,13 @@ export default function SocialFollow() {
       <a href="https://www.linkedin.com/in/sarahdi/" className="linkedin social">
         <FontAwesomeIcon icon={faLinkedin} size="2x" />
       </a>
-      <a href="https://twitter.com/difriendlygrape" className="twitter social">
+      <a href="https://twitter.com/estyduck" className="twitter social">
         <FontAwesomeIcon icon={faTwitter} size="2x" />
       </a>
-      <a href="https://www.instagram.com/difriendlygrape/?hl=en" className="instagram social">
+      <a href="https://www.instagram.com/estyduck/?hl=en" className="instagram social">
         <FontAwesomeIcon icon={faInstagram} size="2x" />
       </a>
-      <a href="https://soundcloud.com/difriendlygrape" className="soundcloud social">
+      <a href="https://soundcloud.com/estyduck" className="soundcloud social">
         <FontAwesomeIcon icon={faSoundcloud} size="2x" />
       </a>
     </div>

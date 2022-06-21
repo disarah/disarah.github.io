@@ -27,7 +27,7 @@ const IndexPage = () => {
     <Seo title="Visual Arts" />
     <h1 style={{fontFamily: 'Fanwood Text'}}>Visual Arts</h1>
     <p>I love painting and taking photos in my free time.</p>
-    <p>Check out my <a href="https://www.artstation.com/difriendlygrape">Artstation</a> for more!</p>
+    <p>Check out my <a href="https://estyduck.artstation.com/">Artstation</a> for more!</p>
     <hr></hr>
       <Gallery path={"/images/art/people"} data={data} title={"People"}/>
     <hr></hr>
